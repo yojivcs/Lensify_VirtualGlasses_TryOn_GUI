@@ -7,7 +7,7 @@ cap = cv2.VideoCapture(0)
 
 # Load the face detector and facial landmark predictor
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
+predictor = dlib.shape_predictor(r'E:\MyProjects\Lensify Try on Your Vision, Virtually\Source Code\Basic Virtual Try On - TestI\virtual_glasses_try_on_test_code\Facial Landmarks\shape_predictor_68_face_landmarks.dat')
 
 while True:
     # Read a frame from the camera

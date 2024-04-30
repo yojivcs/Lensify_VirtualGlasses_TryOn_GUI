@@ -6,9 +6,9 @@ import numpy as np
 from scipy import ndimage
 
 video_capture = cv2.VideoCapture(0)
-glasses = cv2.imread('E:\MyProjects\Lensify Try on Your Vision, Virtually\Source Code\Basic Virtual Try On - TestI\sunglasses.png', -1)
+glasses = cv2.imread('E:\\MyProjects\\Lensify Try on Your Vision, Virtually\\Source Code\\Basic Virtual Try On - TestI\\virtual_glasses_try_on_test_code\\Glasses Overlay Test Run\\sunglasses.png', -1)
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
+predictor = dlib.shape_predictor(r'E:\MyProjects\Lensify Try on Your Vision, Virtually\Source Code\Basic Virtual Try On - TestI\virtual_glasses_try_on_test_code\Glasses Overlay Test Run\shape_predictor_68_face_landmarks.dat')
 
 #Resize an image to a certain width
 def resize(img, width):
