@@ -60,5 +60,5 @@ def analyze_image(image_path):
     print(f'Facial Shape: {facial_shape}')
 
 # Call the analyze_image function with the image file path
-image_path = (r'E:\MyProjects\Lensify Try on Your Vision, Virtually\Source Code\Basic Virtual Try On - TestI\virtual_glasses_try_on_test_code\Facial Landmarks\captured_images\Ashiq.jpg')
+image_path = (r'E:\MyProjects\Lensify Try on Your Vision, Virtually\Source Code\Basic Virtual Try On - TestI\virtual_glasses_try_on_test_code\Facial Landmarks\captured_images\Tahasin.jpg')
 analyze_image(image_path)
