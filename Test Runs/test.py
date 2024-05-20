@@ -30,7 +30,7 @@ video_capture = cv2.VideoCapture(0)
 
 # Load the face detector and predictor
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor(r'E:\MyProjects\Lensify Try on Your Vision, Virtually\Source Code\Test Flight\shape_predictor_68_face_landmarks.dat')
+predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
 # Load the first glass
 glasses_path = glasses_list[glass_index][1]  # Get the path from the database

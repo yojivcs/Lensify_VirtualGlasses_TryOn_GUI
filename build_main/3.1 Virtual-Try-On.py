@@ -136,7 +136,7 @@ class GlassesApp(tk.Tk):
             image=self.button_4,
             borderwidth=0,
             highlightthickness=0,
-            command=lambda: self.apply_glasses(15),
+            command=lambda: self.apply_glasses(16),
             relief="flat"
         )
         button_image_4.place(

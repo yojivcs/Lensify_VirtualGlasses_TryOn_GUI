@@ -7,7 +7,7 @@ import sys
 import subprocess
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"E:\MyProjects\Lensify Try on Your Vision, Virtually\Source Code\Lensify Software\virtual_glasses_try_on_test_code\build\assets\frame2")
+ASSETS_PATH = OUTPUT_PATH / Path("assets/frame2")
 
 
 def relative_to_assets(path: str) -> Path:
@@ -26,7 +26,7 @@ def open_glasses():
 def open_sunglasses():
     selection_script = OUTPUT_PATH / "3.3 Sunglasses Catalogue.py"
     subprocess.Popen([sys.executable, str(selection_script)])
-      
+    
 
 window = Tk()
 

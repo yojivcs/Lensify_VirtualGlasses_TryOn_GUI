@@ -28,7 +28,7 @@ class GlassesApp(tk.Tk):
 
         # Load the face detector and predictor
         self.detector = dlib.get_frontal_face_detector()
-        self.predictor = dlib.shape_predictor("Glasses Overlay Test Run\\shape_predictor_68_face_landmarks.dat")
+        self.predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
 
         # Connect to the database
         self.conn = sqlite3.connect('glasses.db')
