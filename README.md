@@ -2,7 +2,7 @@
 
 Welcome to Lensify, a virtual glasses try-on software project developed as part of my 2nd Year final Software Project Course. This project allows users to virtually try on different glasses and modify their appearance using a user-friendly graphical user interface (GUI).
 
-![Home Page](Landing_Page.png)
+![Lensify](ZLogo_Frame.jpg)
 
 
 ## **Test Runs**
@@ -34,23 +34,33 @@ The build_main directory contains all the necessary assets and the main GUI prog
 Navigate to the build_main directory.
 Execute python main.py to launch the interface.
 Interface Overview
-Home Page: The landing page where users start exploring different glasses options.
-Virtual Try-On: Users can click on glasses images to see how they look on their face.
-Navigation: Use intuitive buttons and keyboard shortcuts to navigate through different screens and glasses options.
-Additional Content
-For a more detailed exploration of each GUI screen and functionality, refer to the respective Python scripts and their functionalities in the project directory.
+**Home Page:** The landing page where users start exploring different glasses options.
+**Virtual Try-On:** Users can click on glasses images to see how they look on their face.
+
+
 
 Screenshots
 Here are some screenshots illustrating the Lensify interface:
 
-Home Page:
+## **Home Page:**
+![Lensify](ZLanding_Page.png)
+
+## **Selection Page:**
+![Selection Page](ZOptions.png)
+
+## **Virtual-Try-On**
+![Virutal-Try-On](ZVTO.png)
 
 
-Virtual Try-On:
+## **Glasses Catalogue**
+![Lensify](ZGlasses_Page.png)
+![Sunglasses](ZSunglasses.png)
 
 
-Contact Information
+
+
+## **Contact Information**
 For questions, feedback, or collaboration opportunities, feel free to reach out:
 
-Email: your.email@example.com
-GitHub: Your GitHub Profile
+**LinkedIn:** https://www.linkedin.com/in/vintech/
+
