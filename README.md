@@ -1,4 +1,4 @@
-**Lensify: 🕶️ Virtual Glasses Try-On Software**
+# **Lensify: 🕶️ Virtual Glasses Try-On Software**
 
 Welcome to Lensify, a virtual glasses try-on software project developed as part of my 2nd Year final Software Project Course. This project allows users to virtually try on different glasses and modify their appearance using a user-friendly graphical user interface (GUI).
 
